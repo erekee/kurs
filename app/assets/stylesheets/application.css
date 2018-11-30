@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+
+    	* { padding: 0; margin: 0; }
+    	canvas { background: #eee; display: block; margin: 0 auto; }
+
+
+
+
+    body {
+        -webkit-animation: colorchange 60s infinite;
+        animation: colorchange 60s infinite;
+    }
+    @-webkit-keyframes colorchange {
+         0%  {background: #33FFF3;}
+        25%  {background: #78281F;}
+        50%  {background: #117A65;}
+        75%  {background: #DC7633;}
+        100% {background: #9B59B6;}
+    }
+    @keyframes colorchange {
+         0%  {background: #33FFF3;}
+        25%  {background: #78281F;}
+        50%  {background: #117A65;}
+        75%  {background: #DC7633;}
+        100% {background: #9B59B6;}
+    }
